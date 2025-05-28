@@ -254,7 +254,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send '/d' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send '/d' for use default.\n Eg : 𝑮𝒂𝒖𝒓𝒂𝒗👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -272,7 +272,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         MR = raw_text4
         
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `/no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -283,7 +283,7 @@ async def txt_handler(bot: Client, m: Message):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
         thumb = "thumb.jpg"
     else:
-        thumb == "/no"
+        thumb == "no"
 
     count =int(raw_text)    
     try:
@@ -664,7 +664,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝒂ꪊ𝘳𝒂ꪜ"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -692,7 +692,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ"
+    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
     
     try:    
         with open(x, "r") as f:
@@ -746,7 +746,7 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send '/de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send '/de' for use default.\n Eg : 𝑮𝒂𝒖𝒓𝒂𝒗👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -756,7 +756,7 @@ async def txt_handler(bot: Client, m: Message):
         CR = raw_text3
         
        
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `/no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -767,7 +767,7 @@ async def txt_handler(bot: Client, m: Message):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
         thumb = "thumb.jpg"
     else:
-        thumb == "/no"
+        thumb == "no"
 
     count =int(raw_text)    
     try:
@@ -847,8 +847,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n💫 VID_ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\nTitle: {name1} @callmekund \n\n🎥Resolution: {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**╭━━━━━━━━━━━╮\n💫 PDF_ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\nTitle: {name1} @callmekund.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕𝐈𝐃_𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓𝐈𝐓𝐋𝐄: {name1} @callmekund \n\n🎥 𝐑𝐄𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍: {res}.mkv\n\n📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄: {b_name}\n\n📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc1 = f'**╭━━━━━━━━━━━╮\n💫 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓𝐈𝐓𝐋𝐄: {name1} @callmekund.pdf\n\n📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄: {b_name}\n\n📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
                     
                 
                 if "drive" in url:
