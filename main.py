@@ -37,7 +37,7 @@ bot = Client(
 photo = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
 cpphoto = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
 appxzip = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
-my_name = "🅂🄿🄸🄳🅈"
+my_name = "𝐆𝐚𝐮𝐫𝐚𝐯"
 CHANNEL_ID = "-1002607772171"##change it with your channel 🆔 
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
@@ -152,7 +152,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... Command Nhi Bataunga **Bot Made BY 🅂🄿🄸🄳🅈™👨🏻‍💻**🔍\n\n"
+        "Checking status Ok... Command Nhi Bataunga **Bot Made BY 𝐆𝐚𝐮𝐫𝐚𝐯👨🏻‍💻**🔍\n\n"
         "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
     )
 
@@ -172,7 +172,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬™"
+    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ"
     token = f"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYxNTE3MzAuMTI2LCJkYXRhIjp7Il9pZCI6IjYzMDRjMmY3Yzc5NjBlMDAxODAwNDQ4NyIsInVzZXJuYW1lIjoiNzc2MTAxNzc3MCIsImZpcnN0TmFtZSI6IkplZXYgbmFyYXlhbiIsImxhc3ROYW1lIjoic2FoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiV1dXLkpFRVZOQVJBWUFOU0FIQEdNQUlMLkNPTSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNTU0NjkzMH0.iImf90mFu_cI-xINBv4t0jVz-rWK1zeXOIwIFvkrS0M"
     try:    
         with open(x, "r") as f:
@@ -223,11 +223,11 @@ async def txt_handler(bot: Client, m: Message):
         # Wait for 2 seconds before proceeding
         await asyncio.sleep(2)
         
-    await editable.edit("**Enter Your Batch Name or send d for grabing from text filename.**")
+    await editable.edit("**Enter Your Batch Name or send /d for grabing from text filename.**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
-    if raw_text0 == 'd':
+    if raw_text0 == '/d':
         b_name = file_name
     else:
         b_name = raw_text0
@@ -254,25 +254,25 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send '/d' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    if raw_text3 == 'de':
+    if raw_text3 == '/d':
         CR = credit
     else:
         CR = raw_text3
         
-    await editable.edit("**Enter Your PW Token For 𝐌𝐏𝐃 𝐔𝐑𝐋  or send 'Not' for use default**")
+    await editable.edit("**Enter Your PW Token For 𝐌𝐏𝐃 𝐔𝐑𝐋  or send '/Not' for use default**")
     input4: Message = await bot.listen(editable.chat.id)
     raw_text4 = input4.text
     await input4.delete(True)
-    if raw_text4 == 'not':
+    if raw_text4 == '/not':
         MR = token
     else:
         MR = raw_text4
         
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `/no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -283,7 +283,7 @@ async def txt_handler(bot: Client, m: Message):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
         thumb = "thumb.jpg"
     else:
-        thumb == "no"
+        thumb == "/no"
 
     count =int(raw_text)    
     try:
@@ -664,7 +664,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝗦𝗣𝗜𝗗𝗬"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝒂ꪊ𝘳𝒂ꪜ"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -692,7 +692,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝗦𝗣𝗜𝗗𝗬™🇮🇳"
+    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ"
     
     try:    
         with open(x, "r") as f:
@@ -715,11 +715,11 @@ async def txt_handler(bot: Client, m: Message):
         arg = int(raw_text)
     except:
         arg = 1
-    await editable.edit("**Enter Your Batch Name or send d for grabing from text filename.**")
+    await editable.edit("**Enter Your Batch Name or send /d for grabing from text filename.**")
     input1: Message = await bot.listen(editable.chat.id)
     raw_text0 = input1.text
     await input1.delete(True)
-    if raw_text0 == 'd':
+    if raw_text0 == '/d':
         b_name = file_name
     else:
         b_name = raw_text0
@@ -746,17 +746,17 @@ async def txt_handler(bot: Client, m: Message):
     except Exception:
             res = "UN"
     
-    await editable.edit("**Enter Your Name or send 'de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
+    await editable.edit("**Enter Your Name or send '/de' for use default.\n Eg : 𝗦𝗣𝗜𝗗𝗬™👨🏻‍💻**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
-    if raw_text3 == 'de':
+    if raw_text3 == '/de':
         CR = credit
     else:
         CR = raw_text3
         
        
-    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `no`")
+    await editable.edit("Now send the **Thumb url**\n**Eg :** ``\n\nor Send `/no`")
     input6 = message = await bot.listen(editable.chat.id)
     raw_text6 = input6.text
     await input6.delete(True)
@@ -767,7 +767,7 @@ async def txt_handler(bot: Client, m: Message):
         getstatusoutput(f"wget '{thumb}' -O 'thumb.jpg'")
         thumb = "thumb.jpg"
     else:
-        thumb == "no"
+        thumb == "/no"
 
     count =int(raw_text)    
     try:
@@ -847,8 +847,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @Spidy_Universe {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} @Spidy_Universe.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**╭━━━━━━━━━━━╮\n💫 VID_ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\nTitle: {name1} @callmekund \n\n🎥Resolution: {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc1 = f'**╭━━━━━━━━━━━╮\n💫 PDF_ID: {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\nTitle: {name1} @callmekund.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
                     
                 
                 if "drive" in url:
@@ -910,7 +910,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 🅂🄿🄸🄳🅈"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 Title:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝐚𝐮𝐫𝐚𝐯"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
