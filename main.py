@@ -439,7 +439,7 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name} {res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{my_name}✦━━━━━**'
+                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕ɪᴅᴇᴏ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: {my_name}.mkv\n├─𝐑ᴇꜱᴏʟᴜᴛɪᴏɴ: {res}\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦{my_name}✦━━━━━**'
                 cc1 = f'**📁 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name}.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{my_name}✦━━━━━**'
                 cyt = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name}.mkv\n\n📚 Batch Name: {b_name}\n\n**🔗 𝐕𝐢𝐝𝐞𝐨 𝐥𝐢𝐧𝐤 - ({url})**\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{my_name}✦━━━━━**'
                 ccp = f'**🎞️ VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {my_name}.mkv\n\n📚 Batch Name: {b_name}\n\n**🔗 𝐕𝐢𝐝𝐞𝐨 𝐥𝐢𝐧𝐤 - ({url})**\n\n📥 Extracted By : {CR}\n\n**━━━━━✦{my_name}✦━━━━━**'
