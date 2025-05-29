@@ -664,7 +664,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 » ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 » ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐆𝒂ꪊ𝘳𝒂ꪜ❤️](https://t.me/call_me_kund)"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -847,7 +847,7 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕ɪᴅᴇᴏ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).mkv ├─\n𝐑ᴇꜱᴏʟᴜᴛɪᴏɴ: {res}\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕ɪᴅᴇᴏ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).mkv \n├─𝐑ᴇꜱᴏʟᴜᴛɪᴏɴ: {res}\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
                 cc1 = f'**╭━━━━━━━━━━━╮\n💫 𝐏ᴅꜰ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).pdf\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
                     
                 
@@ -910,7 +910,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `URL nahi dikha sakta mere bhai😁`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝐚𝐮𝐫𝐚𝐯"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 » ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `URL nahi dikha sakta mere bhai😁`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐆𝐚𝐮𝐫𝐚𝐯 𝐁𝐚𝐧𝐧𝐚](https://t.me/call_me_kund)"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -1173,7 +1173,7 @@ async def txt_handler(bot: Client, m: Message):
                         continue                       
                           
                 else:
-                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `Kya karoge URL dekh ke 😂`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ 𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
+                    Show = f"📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 »\n\n📝 𝐓𝐢𝐭𝐥𝐞:- `{name}\n\n**🔗 𝐓𝐨𝐭𝐚𝐥 𝐔𝐑𝐋 »** ✨{str(count).zfill(3)}/{len(links)}✨\n\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `Kya karoge URL dekh ke 😂`\n\n**𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝐆𝐚𝐮𝐫𝐚𝐯 𝐁𝐚𝐧𝐧𝐚](https://t.me/call_me_kund)"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
