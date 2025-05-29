@@ -1110,7 +1110,7 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'>🎞️ 𝐕𝐈𝐃_𝐈𝐃: **{str(count).zfill(3)}**\n\n><blockquote>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻\n>**{name1} {res} .mkv<blockquote>**\n\n>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻\n>**{b_name}**\n\n>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : **{CR}**\n\n<pre><code>━━━━━✦𝗦𝗣𝗜𝗗𝗬❤️✦━━━━━</code></pre>'
+                cc = f'>🎞️ 𝐕𝐈𝐃_𝐈𝐃: **{str(count).zfill(3)}**\n\n><blockquote>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻\n>**{name1} {res} .mkv</blockquote>**\n\n>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻\n>**{b_name}**\n\n>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : **{CR}**\n\n<pre><code>━━━━━✦𝗦𝗣𝗜𝗗𝗬❤️✦━━━━━</code></pre>'
                 cc1 = f'**<pre><code>📁 𝐏𝐃𝐅_𝐈𝐃: {str(count).zfill(3)}.</code></pre>\n\n<pre><code>📝 𝐓𝐈𝐓𝐋𝐄:👇🏻</code></pre>\n<pre><code>{name1} .pdf</code></pre>\n\n<pre><code>📚 𝐁𝐀𝐓𝐂𝐇 𝐍𝐀𝐌𝐄:👇🏻</code>\n</pre><pre><code>{b_name}</code></pre>\n\n<pre><code>✨𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 : {CR}</code></pre>**\n\n<pre><code>━━━━━✦𝗦𝗣𝗜𝗗𝗬❤️✦━━━━━</code></pre>'
                     
                 
