@@ -38,7 +38,7 @@ photo = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
 cpphoto = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
 appxzip = "https://i.postimg.cc/dVY9nL63/IMG-20250426-130510-655.jpg"
 my_name = "𝐆𝐚𝐮𝐫𝐚𝐯🕉️"
-CHANNEL_ID = "-1002607772171"##change it with your channel 🆔 
+CHANNEL_ID = "-1002576310041"##change it with your channel 🆔 
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -47,7 +47,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("your_render_url") ## change it with your host url
+    return web.json_response("https://txt-to-video-w9s7.onrender.com") ## change it with your host url
 
 async def web_server():
     web_app = web.Application(client_max_size=30000000)
