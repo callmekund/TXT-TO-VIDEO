@@ -172,7 +172,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
+    credit = f"𝄟⃝🐬𝐆𝒂ꪊ𝘳𝒂ꪜ𝄟⃝🐬"
     token = f"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYxNTE3MzAuMTI2LCJkYXRhIjp7Il9pZCI6IjYzMDRjMmY3Yzc5NjBlMDAxODAwNDQ4NyIsInVzZXJuYW1lIjoiNzc2MTAxNzc3MCIsImZpcnN0TmFtZSI6IkplZXYgbmFyYXlhbiIsImxhc3ROYW1lIjoic2FoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiV1dXLkpFRVZOQVJBWUFOU0FIQEdNQUlMLkNPTSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNTU0NjkzMH0.iImf90mFu_cI-xINBv4t0jVz-rWK1zeXOIwIFvkrS0M"
     try:    
         with open(x, "r") as f:
@@ -692,7 +692,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"𝐆𝒂ꪊ𝘳𝒂ꪜ❤️"
+    credit = f"𝄟⃝🐬𝐆𝒂ꪊ𝘳𝒂ꪜ𝄟⃝🐬"
     
     try:    
         with open(x, "r") as f:
@@ -847,8 +847,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕ɪᴅᴇᴏ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).mkv \n├─𝐑ᴇꜱᴏʟᴜᴛɪᴏɴ: {res}\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
-                cc1 = f'**╭━━━━━━━━━━━╮\n💫 𝐏ᴅꜰ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).pdf\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦📖🇮🇳📖✦━━━━━**'
+                cc = f'**╭━━━━━━━━━━━╮\n💫 𝐕ɪᴅᴇᴏ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).mkv \n├─𝐑ᴇꜱᴏʟᴜᴛɪᴏɴ: {res}\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦🚩जय श्री राम🚩✦━━━━━**'
+                cc1 = f'**╭━━━━━━━━━━━╮\n💫 𝐏ᴅꜰ 𝐈𝐃: {str(count).zfill(3)}\n╰━━━━━━━━━━━╯\n\n📝 𝐓ɪᴛʟᴇ: {name1} \n├─𝐄xᴛᴇɴꜱɪᴏɴ: [𝐆𝐚𝐮𝐫𝐚𝐯🤍](https://t.me/call_me_kund).pdf\n\n📚 𝐂ᴏᴜʀꜱᴇ: {b_name}\n\n📥 𝐃ᴏᴡɴʟᴏᴀᴅᴇᴅ 𝐁ʏ: {CR}\n\n**━━━━━✦🚩जय श्री राम🚩✦━━━━━**'
                     
                 
                 if "drive" in url:
